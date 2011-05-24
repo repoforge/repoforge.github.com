@@ -1,0 +1,49 @@
+body {
+  font-size: 100%;
+}
+
+header h1 {
+float: left;
+padding: 10px 0;
+margin: 0 30px 0 0;
+font-size: 250%;
+}
+
+header h1 a:link, h1 a:visited {
+color: #000 !important;
+}
+
+
+p#tagline {
+padding: 10px 0 0 0;
+margin: 0;
+color: #888;
+font-size: 80%;
+}
+
+nav ul {
+padding: 10px 0 20px 0;
+margin: 0;
+font-size: 120%;
+border-bottom: dotted 1px #aaa;
+}
+
+nav ul li {
+display: inline;
+}
+
+nav ul li.selected {
+font-weight: bold;
+}
+
+nav ul li:after {
+content: " / ";
+color: #ddd;
+}
+
+footer {
+clear: both;
+padding-top: 20px;
+color: #888;
+font-size: 80%;
+}

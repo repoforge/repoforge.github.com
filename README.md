@@ -1,23 +1,26 @@
 ---
 layout: default
-title: RepoForge Project Website README
+title: Repoforge Project Website README
 ---
 
-RepoForge website
+Repoforge website
 -----------------
 
 This is the jeykll website content for http://repoforge.org/
 
 
 Goal of the website:
+
 * how to install repoforge
 * how to cooperate/contribute
 * information for mirror users
 * where to find information
 
-Places information came from:
+Places information need to come from:
+
 * https://rpmrepo.org/RPMforge
 * http://dag.wieers.com/rpm/
+* http://wiki.centos.org/AdditionalResources/Repositories/RPMForge
 
 
 Quick Start Guide
@@ -33,4 +36,9 @@ How to get a copy of this website running on your local machine.
 * http://localhost:4000/
 * hack hack hack
 
+Random Notes
+------------
 
+GitHub supports ASCIIdoc but getting that working on the localhost with jeykll has proven to be troublesome.  Getting the ball rolling with markdown as default markup.
+
+Web design: html5 + blueprint + ghetto css to start with.
