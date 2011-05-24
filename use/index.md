@@ -3,8 +3,7 @@ title: User Guide
 layout: default
 ---
 
-User Guide
-==========
+## User Guide ## 
 
 To configure your system to install packages from Repoforge, install the appropriate `rpmforge-release` package for your distribution:
 

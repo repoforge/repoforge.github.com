@@ -3,8 +3,7 @@ layout: default
 title: Contribute Packages
 ---
 
-Contribute Packages
--------------------
+## Contribute Packages ##
 
 Repoforge welcomes contributions!  To contribute a new package, or a fix to an existing package, use the following procedure:
 
@@ -16,3 +15,9 @@ Repoforge welcomes contributions!  To contribute a new package, or a fix to an e
 
 4. Submit a [pull request](http://help.github.com/pull-requests/) when your contribution is ready.
 
+
+### Follow the community ###
+
+* TODO: mailing list info
+* TODO: bug tracker
+* #repoforge on irc.freenode.net
