@@ -29,11 +29,12 @@ Quick Start Guide
 How to get a copy of this website running on your local machine.
 
 * have git, ruby and gem (w00t RVM)
+> * `yum install git asciidoc`
 * `gem install jekyll bluecloth redcloth github-markup`
-* `git clone git://github.com/repoforge/repoforge.github.com.git` # read-only
+* `git clone git://github.com/repoforge/repoforge.github.com.git`
 * `cd repoforge.github.com`
 * `jekyll --auto --serve`
-* http://localhost:4000/
+* browse to: http://localhost:4000/
 * hack hack hack
 
 Random Notes
