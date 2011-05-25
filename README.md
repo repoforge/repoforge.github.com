@@ -29,7 +29,7 @@ Quick Start Guide
 How to get a copy of this website running on your local machine.
 
 * have git, ruby and gem (w00t RVM)
-* `gem install jekyll`
+* `gem install jekyll bluecloth redcloth github-markup`
 * `git clone git://github.com/repoforge/repoforge.github.com.git` # read-only
 * `cd repoforge.github.com`
 * `jekyll --auto --serve`
