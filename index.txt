@@ -1,0 +1,25 @@
+= Repoforge project
+
+Welcome to the *Repoforge* project. This project was formerly known
+as *RPMforge*.
+
+The Repoforge project provides add-on software packaged for _Red Hat
+Enterprise Linux (RHEL)_ and compatible derivatives like _CentOS_
+and _Scientific Linux_. In our RPM repositories you can convenient
+RPM packages for:
+
+ - Servers _(eg. monitoring, troubleshooting, management)_
+ - Desktops _(eg. office, leisure, multi-media)_
+ - Development _(eg. perl, python, ruby libraries)_
+
+
+== Installing Repoforge
+To start using Repoforge, you only need to install the +rpmforge-release+
+package tailored for your specific distribution. More information on how
+to do this is avalable from the link:/fqa[Repoforge FQA]
+
+
+== Contributing to Repoforge
+In true Open Source fashion, this project welcomes contributions and
+ownership of packages. We make use of github to collaborate on package
+maintenance and infrastructure.
