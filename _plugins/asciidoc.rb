@@ -11,7 +11,7 @@ module Jekyll
     end
 
     def matches(ext)
-      ext =~ /(txt|adoc|asciidoc/i
+      ext =~ /(txt|adoc|asciidoc)/i
     end 
 
     def output_ext(ext)
