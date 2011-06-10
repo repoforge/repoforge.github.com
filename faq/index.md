@@ -5,7 +5,7 @@ title: Repoforge FAQ
 
 ## Repoforge FAQ ##
 
-### What is Repoforge ###
+### What is Repoforge? ###
 
 Repoforge is the new name of the RPMforge project.
 
@@ -15,7 +15,7 @@ Repoforge is a project that maintains RPM packages for Red Hat Enterprise Linux 
 
 See the [user guide](/use "user guide")
 
-### How can I contribute ###
+### How can I contribute? ###
 
 * Become a [packager](/package "repoforge contributer") by fixing or adding new packages.
 * Get forking.  Fork the repository you want to assist with, fix things, submit pull requests. _like [this website](http://github.com/repoforge/repoforge.github.com/)_
