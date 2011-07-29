@@ -13,24 +13,31 @@ You want to spin out some fancy repoforge action yourself.  Test rebuilding spec
 * Software development tools
 
 >
->    yum groupinstall "Development Tools" 
+>    yum groupinstall "Development Tools"
 >    yum install git
-
 
 * create a build user:  
 
 >
->    adduser repoforge
+>    newgrp mock
+>    usermod -a G mock repoforge
 
 * Get the Repoforge rpms repository
 
 >
 >    git clone ...
 
-* setup mock 
+* setup mock
 
+>
+>    yum install createrepo pigz python-decoratortools mock
 
 * use Repoforge mock configuration to build packages
+
+>
+>    sudo -u repoforge -i
+>    rpmbuild -bs file.spec
+>    mock -r <configfile> rebuild package-1.2-3.src.rpm
 
 
 ## Next Level
