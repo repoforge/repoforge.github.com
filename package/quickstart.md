@@ -2,9 +2,10 @@
 layout: default
 title: quick start
 ---
+
 # Quick Start build system
 
-You want to spin out some fancy repoforge action yourself.  Test rebuilding spec files before asking for a pull request perhaps.  Here is a quick start guide with the possible commands you might run:
+You want to spin out some fancy RepoForge action yourself. Test rebuilding SPEC files before asking for a pull request perhaps. Here is a quick start guide with the possible commands you might run:
 
 * Spin out a new RHEL/CentOS machine
 
@@ -12,64 +13,55 @@ You want to spin out some fancy repoforge action yourself.  Test rebuilding spec
 
 * Software development tools
 
->
->    yum groupinstall "Development Tools"
->    yum install git
+    yum groupinstall "Development Tools"
+    yum install git
 
-* create a build user:
+* Setup mock (available at RepoForge) and use RepoForge mock configuration to build packages
 
->
->    useradd -a G mock repoforge
+    yum install mock
 
-* Get the Repoforge rpms repository
+* Create a build user
 
->
->    git clone ...
+    useradd -a G mock repoforge
+    sudo -u repoforge -i
 
-* setup mock
+* Checkout the RepoForge RPMs repository (or make & checkout your own fork if you are expecting to submit your patches back to us, which you really ought to, of course!)
 
->
->    yum install mock
+    git clone git://github.com/repoforge/rpms.git
 
-* use Repoforge mock configuration to build packages
+* Setup a build environment
 
->
->    sudo -u repoforge -i
+    mkdir -p ~/rpmbuild/{BUILD,RPMS,SOURCES,SPECS,SRPMS}
+    mkdir -p ~/rpmbuild/RPMS/{i386,i486,i586,i686,noarch,athlon}
 
-* setup a build environment
+* Build an RPM for your platform
 
->    mkdir -p ~/rpmbuild/{BUILD,RPMS,SOURCES,SPECS,SRPMS}
->    mkdir -p ~/rpmbuild/RPMS/{i386,i486,i586,i686,noarch,athlon}
-
-* build an rpm for your platform
-
->    rpmbuild -bs file.spec
->    mock -r <configfile> rebuild package-1.2-3.src.rpm
+    rpmbuild -bs file.spec
+    mock -r <configfile> rebuild package-1.2-3.src.rpm
 	
-* to build an rpm for an older platform (EL5 package on an EL6 machine):
+* To build an RPM for an older platform (EL5 package on an EL6 machine):
 
->    edit /usr/sbin/rpmbuild-old
+    mkdir ~/bin
+    vi ~/bin/rpmbuild-old
 
-* paste the following contents
+* Paste the following contents
 
->    #!/bin/bash
->    
->    rpmbuild \
->        --define "_source_filedigest_algorithm 1" \
->        --define "_binary_filedigest_algorithm 1" \
->        --define "_binary_payload w9.gzdio" \
->        --define="dist .el5" \
->        --define="el5 1" \
->        $*
+    #!/bin/bash
 
-* make the file executable
+    rpmbuild \
+        --define "_source_filedigest_algorithm 1" \
+        --define "_binary_filedigest_algorithm 1" \
+        --define "_binary_payload w9.gzdio" \
+        --define="dist .el5" \
+        --define="el5 1" \
+        $*
 
->    chmod +x /usr/sbin/rpmbuild-old
+* Make the file executable
 
-* now build for el5
+    chmod +x ~/bin/rpmbuild-old
 
->    /usr/sbin/rpmbuild-old -bs file.spec
+* Now build for EL5
 
-## Next Level
+    rpmbuild-old -bs file.spec
 
-Next level for people serious about doing a good job:  test and build on RHEL4 RHEL5 and RHEL6 using Dag's [multidist-build howto](/package/multidist-system).
+For people serious about doing a good job: build and test at least on RHEL4, RHEL5 and RHEL6 by specifying correct config files to mock builder!
