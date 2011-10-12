@@ -22,7 +22,7 @@ You want to spin out some fancy RepoForge action yourself. Test rebuilding SPEC 
 
 * Create a build user
 
-        useradd -a G mock repoforge
+        useradd -G mock repoforge
         sudo -u repoforge -i
 
 * Checkout the RepoForge RPMs repository (or make & checkout your own fork if you are expecting to submit your patches back to us, which you really ought to, of course!)
