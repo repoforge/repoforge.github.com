@@ -41,12 +41,12 @@ We have a few requirements for those wishing to run a mirror:
 #### Mirroring techniques ####
 We only support rsync for updating mirrors. You can find details on rsync at http://rsync.samba.org/. Update your mirror with:
     
-    /usr/bin/rsync -vai4CH --safe-links --delay-updates --delete rsync://apt.sw.be/pub/freshrpms/dag/ /path/to/local/mirror/root
+    /usr/bin/rsync -vai4CH --safe-links --delay-updates --delete rsync://ftp-stud.fht-esslingen.de/dag/ /path/to/local/mirror/root
 
 
 We highly recommend the use of lock file in your cron script, so that you don't spawn multiple connections, which is hard on our servers and on your mirror. Update your mirror with:
 
-    /usr/bin/flock -w 60 /var/lock/EUAK1qEPB3SM /usr/bin/rsync -vai4CH --safe-links --delay-updates --delete rsync://apt.sw.be/pub/freshrpms/dag/ /path/to/local/mirror/root
+    /usr/bin/flock -w 60 /var/lock/EUAK1qEPB3SM /usr/bin/rsync -vai4CH --safe-links --delay-updates --delete rsync://ftp-stud.fht-esslingen.de/dag/ /path/to/local/mirror/root
 
 Create your unique lockfile with:
 
