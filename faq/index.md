@@ -37,16 +37,17 @@ We have a few requirements for those wishing to run a mirror:
 * You must not modify the mirrored tree in any way. In particular, index.html, HEADER.html and README.html files must not be altered or removed.
 * Your mirror must not be shown "inside" another site using, for instance, frames.
 * You must do an update-check at least once a day, and preferably four times a day.
+* You must use 'repoforge' name for the mirror.
 
 #### Mirroring techniques ####
 We only support rsync for updating mirrors. You can find details on rsync at http://rsync.samba.org/. Update your mirror with:
     
-    /usr/bin/rsync -vai4CH --safe-links --delay-updates --delete rsync://ftp-stud.fht-esslingen.de/dag/ /path/to/local/mirror/root
+    /usr/bin/rsync -vai4CH --safe-links --delay-updates --delete rsync://ftp-stud.fht-esslingen.de/dag/ /path/to/local/mirror/repoforge
 
 
 We highly recommend the use of lock file in your cron script, so that you don't spawn multiple connections, which is hard on our servers and on your mirror. Update your mirror with:
 
-    /usr/bin/flock -w 60 /var/lock/EUAK1qEPB3SM /usr/bin/rsync -vai4CH --safe-links --delay-updates --delete rsync://ftp-stud.fht-esslingen.de/dag/ /path/to/local/mirror/root
+    /usr/bin/flock -w 60 /var/lock/EUAK1qEPB3SM /usr/bin/rsync -vai4CH --safe-links --delay-updates --delete rsync://ftp-stud.fht-esslingen.de/dag/ /path/to/local/mirror/repoforge
 
 Create your unique lockfile with:
 
