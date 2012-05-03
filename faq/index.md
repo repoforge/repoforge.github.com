@@ -66,7 +66,7 @@ Provide us with details of your mirror:
 * Update frequency
 * Approximate bandwidth
 * The name of tier 1 mirror you are syncing from, which should be one of this:
- * **ftp-stud.fht-esslingen.de** (Germany) - *rsync://ftp-stud.fht-esslingen.de/dag/*
+    * **ftp-stud.fht-esslingen.de** (Germany) - *rsync://ftp-stud.fht-esslingen.de/dag/*
 
 Notes:
 * If/when your mirror is in the list, you can change the IP of the mirror without notifying us.
