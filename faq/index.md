@@ -37,6 +37,8 @@ We have a few requirements for those wishing to run a mirror:
 * You must not modify the mirrored tree in any way. In particular, index.html, HEADER.html and README.html files must not be altered or removed.
 * Your mirror must not be shown "inside" another site using, for instance, frames.
 * You must do an update-check at least once a day, and preferably four times a day.
+* Do not rsync more rapidly than every hour.
+* Sync on a ranodm minute so it is more likely the requests will be spaced out with other mirrors.
 * You must use 'repoforge' name for the mirror.
 
 #### Mirroring techniques ####
@@ -58,11 +60,13 @@ Once the site is configured, tested, and updating consistently, you should subsc
 
 Provide us with details of your mirror:
 * URL of mirror
+* Supported access methods (http, ftp, rsync, ...) 
 * Country/State/City where the mirror is located
 * Contact email address
 * Update frequency
 * Approximate bandwidth
-* Mirror master
+* The name of tier 1 mirror you are syncing from, which should be one of this:
+    * **ftp-stud.fht-esslingen.de** (Germany) - *rsync://ftp-stud.fht-esslingen.de/dag/*
 
 Notes:
 * If/when your mirror is in the list, you can change the IP of the mirror without notifying us.
