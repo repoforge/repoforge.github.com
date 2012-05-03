@@ -62,6 +62,7 @@ Provide us with details of your mirror:
 * Contact email address
 * Update frequency
 * Approximate bandwidth
+* Mirror master
 
 Notes:
 * If/when your mirror is in the list, you can change the IP of the mirror without notifying us.
