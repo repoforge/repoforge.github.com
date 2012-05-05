@@ -67,6 +67,7 @@ Provide us with details of your mirror:
 * Approximate bandwidth
 * The name of tier 1 mirror you are syncing from, which should be one of this:
     * **ftp-stud.fht-esslingen.de** (Germany) - *rsync://ftp-stud.fht-esslingen.de/dag/*
+    * **repository.vsb.cz** (Czech Republic) - *rsync://repository.vsb.cz/repoforge/*
 
 Notes:
 * If/when your mirror is in the list, you can change the IP of the mirror without notifying us.
