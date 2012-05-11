@@ -44,12 +44,12 @@ We have a few requirements for those wishing to run a mirror:
 #### Mirroring techniques ####
 We only support rsync for updating mirrors. You can find details on rsync at http://rsync.samba.org/. Update your mirror with:
     
-    /usr/bin/rsync -vai4CH --safe-links --delay-updates --delete rsync://ftp-stud.fht-esslingen.de/dag/ /path/to/local/mirror/repoforge
+    /usr/bin/rsync -vai4CH --safe-links --delay-updates --delete rsync://ftp-stud.fht-esslingen.de/repoforge/ /path/to/local/mirror/repoforge
 
 
 We highly recommend the use of lock file in your cron script, so that you don't spawn multiple connections, which is hard on our servers and on your mirror. Update your mirror with:
 
-    /usr/bin/flock -w 60 /var/lock/EUAK1qEPB3SM /usr/bin/rsync -vai4CH --safe-links --delay-updates --delete rsync://ftp-stud.fht-esslingen.de/dag/ /path/to/local/mirror/repoforge
+    /usr/bin/flock -w 60 /var/lock/EUAK1qEPB3SM /usr/bin/rsync -vai4CH --safe-links --delay-updates --delete rsync://ftp-stud.fht-esslingen.de/repoforge/ /path/to/local/mirror/repoforge
 
 Create your unique lockfile with:
 
@@ -66,7 +66,7 @@ Provide us with details of your mirror:
 * Update frequency
 * Approximate bandwidth
 * The name of tier 1 mirror you are syncing from, which should be one of this:
-    * **ftp-stud.fht-esslingen.de** (Germany) - *rsync://ftp-stud.fht-esslingen.de/dag/*
+    * **ftp-stud.fht-esslingen.de** (Germany) - *rsync://ftp-stud.fht-esslingen.de/repoforge/*
     * **repository.vsb.cz** (Czech Republic) - *rsync://repository.vsb.cz/repoforge/*
 
 Notes:
