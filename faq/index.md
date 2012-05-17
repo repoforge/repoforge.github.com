@@ -65,7 +65,7 @@ Provide us with details of your mirror:
 * Contact email address
 * Update frequency
 * Approximate bandwidth
-* The name of tier 1 mirror you are syncing from, which should be one of this:
+* The name of **Tier1** mirror you are syncing from, which should be one of this:
     * **mirror1.hs-esslingen.de** (Germany) - *rsync://mirror1.hs-esslingen.de/repoforge/*
     * **repository.vsb.cz** (Czech Republic) - *rsync://repository.vsb.cz/repoforge/*
 
