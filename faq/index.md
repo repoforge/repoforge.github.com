@@ -72,5 +72,5 @@ Provide us with details of your mirror:
 
 Notes:
 * If/when your mirror is in the list, you can change the IP of the mirror without notifying us.
-* If the best contact point for your mirror is not the address you are subscribed to the mailing list with, please provide the email address of your preferred contact as well.
+* If the best contact point for your mirror is not the address you are subscribed to the mailing list (http://lists.repoforge.org/mailman/listinfo) with, please provide the email address of your preferred contact as well.
 * Please alert the mailing list if anything about the server changes like location, available bandwidth, frequency of updates, etc.
