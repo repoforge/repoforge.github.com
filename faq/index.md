@@ -9,7 +9,7 @@ title: Repoforge FAQ
 
 Repoforge is the new name of the RPMforge project.
 
-Repoforge is a project that maintains RPM packages for Red Hat Enterprise Linux (RHEL), CentOS and Scientific Linux. It consists of a set of repositories compatible with various RHEL versions.
+Repoforge is a project that maintains RPM packages for Red Hat Enterprise Linux (RHEL), CentOS and Scientific Linux. It consists of a set of repositories compatible with various RHEL, CentOS and Scientific Linux versions.
 
 ### How do I use this? ###
 
@@ -19,6 +19,7 @@ See the [user guide](/use "user guide")
 
 * Become a [packager](/package "repoforge contributer") by fixing or adding new packages.
 * Get forking.  Fork the repository you want to assist with, fix things, submit pull requests. _like [this website](http://github.com/repoforge/repoforge.github.com/)_
+* Setup a new mirror of repoforge.See details below.
 
 ### Why are there now several repositories?  What is "rfx"? ###
 
