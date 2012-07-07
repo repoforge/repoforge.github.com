@@ -5,7 +5,7 @@ layout: default
 
 ## User Guide ## 
 
-To configure your system to install packages from Repoforge, install the appropriate `rpmforge-release` package for your distribution:
+To configure your system to install packages from RepoForge, install the appropriate `rpmforge-release` package for your distribution:
 
 * EL 6: [i686](http://pkgs.repoforge.org/rpmforge-release/rpmforge-release-0.5.2-2.el6.rf.i686.rpm), [x86_64](http://pkgs.repoforge.org/rpmforge-release/rpmforge-release-0.5.2-2.el6.rf.x86_64.rpm)
 * EL 5: [i386](http://pkgs.repoforge.org/rpmforge-release/rpmforge-release-0.5.2-2.el5.rf.i386.rpm), [x86_64](http://pkgs.repoforge.org/rpmforge-release/rpmforge-release-0.5.2-2.el5.rf.x86_64.rpm), [ppc](http://pkgs.repoforge.org/rpmforge-release/rpmforge-release-0.5.1-1.el5.rf.ppc.rpm)

@@ -1,13 +1,12 @@
 ---
 layout: default
-title: Repoforge Project Website README
+title: RepoForge Project Website README
 ---
 
-Repoforge website
+RepoForge website
 -----------------
 
-This is the jeykll website content for http://repoforge.org/
-
+This is the Jeykll website content for http://repoforge.org/
 
 Goal of the website:
 

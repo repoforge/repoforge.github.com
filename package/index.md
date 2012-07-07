@@ -7,7 +7,7 @@ title: Contribute Packages
 
 ## Contribute Packages ##
 
-Repoforge welcomes contributions!  To contribute a new package, or a fix to an existing package, use the following procedure:
+RepoForge welcomes contributions!  To contribute a new package, or a fix to an existing package, use the following procedure:
 
 1. Create an account on [GitHub](https://github.com/).
 

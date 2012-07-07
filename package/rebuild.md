@@ -3,7 +3,7 @@ layout: default
 title: Manual Rebuild
 ---
 
-## Manually rebuilding a package from Repoforge ##
+## Manually rebuilding a package from RepoForge ##
 
 So, maybe you've requested that a package be added to RepoForge, and a maintainer has written back to you something like "I've committed your package; it'll be available once it's rebuilt." You may be thinking "But... How long will that take? I need this now!"
 
