@@ -61,23 +61,20 @@ Once the site is configured, tested, and updating consistently, you should subsc
 
 Provide us with details of your mirror:
 
-- URL of mirror
-- Supported access methods (http, ftp, rsync, ...) 
-- Country/State/City where the mirror is located
-- Contact email address
-- Update frequency
-- Approximate bandwidth
-- The name of **Tier1** mirror you are syncing from, which should be one of these:
-  
-    + Asia:
-        * **ftp.riken.jp** (Japan) - *rsync://ftp.riken.jp/repoforge/*
-  
-    + Europe:
-        * **mirror1.hs-esslingen.de** (Germany) - *rsync://mirror1.hs-esslingen.de/repoforge/*
-        * **repository.vsb.cz** (Czech Republic) - *rsync://repository.vsb.cz/repoforge/*
-  
-    + North-America / South-America:
-        * **repoforge.eecs.wsu.edu** (United States) - *rsync://repoforge.eecs.wsu.edu/repoforge/*
+* URL of mirror
+* Supported access methods (http, ftp, rsync, ...)
+* Country / state / city where the mirror is located
+* Contact email address
+* Update frequency
+* Approximate bandwidth
+* The name of **Tier1** mirror you are syncing from, which should be one of these:
+    - Asia:
+        + **ftp.riken.jp** (Japan) - *rsync://ftp.riken.jp/repoforge/*
+    - Europe:
+        + **mirror1.hs-esslingen.de** (Germany) - *rsync://mirror1.hs-esslingen.de/repoforge/*
+        + **repository.vsb.cz** (Czech Republic) - *rsync://repository.vsb.cz/repoforge/*
+    - North-America / South-America:
+        + **repoforge.eecs.wsu.edu** (United States) - *rsync://repoforge.eecs.wsu.edu/repoforge/*
 
 Notes:
 
