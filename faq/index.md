@@ -17,7 +17,7 @@ See the [user guide](/use "user guide")
 
 ### How can I contribute? ###
 
-- Become a [packager](/package "repoforge contributer") by fixing or adding new packages.
+- Become a [packager](/package "repoforge contributor") by fixing or adding new packages.
 - Get forking.  Fork the repository you want to assist with, fix things, submit pull requests. _like [this website](http://github.com/repoforge/repoforge.github.com/)_
 - Setup a new mirror of Repoforge. See below for the details.
 
@@ -39,7 +39,7 @@ We have a few requirements for those wishing to run a mirror:
 5. Your mirror must not be shown "inside" another site using, for instance, frames.
 6. You must do an update-check at least once a day, and preferably four times a day.
 7. Do not rsync more rapidly than every hour.
-8. Sync on a ranodm minute so it is more likely the requests will be spaced out with other mirrors.
+8. Sync on a random minute so it is more likely the requests will be spaced out with other mirrors.
 9. You must use 'repoforge' name for the mirror.
 
 #### Mirroring techniques ####
@@ -60,6 +60,7 @@ Create your unique lockfile with:
 Once the site is configured, tested, and updating consistently, you should subscribe to the mirror maintainers mailing list.
 
 Provide us with details of your mirror:
+
 - URL of mirror
 - Supported access methods (http, ftp, rsync, ...) 
 - Country/State/City where the mirror is located
@@ -67,15 +68,19 @@ Provide us with details of your mirror:
 - Update frequency
 - Approximate bandwidth
 - The name of **Tier1** mirror you are syncing from, which should be one of these:
+  
     + Asia:
         * **ftp.riken.jp** (Japan) - *rsync://ftp.riken.jp/repoforge/*
+  
     + Europe:
         * **mirror1.hs-esslingen.de** (Germany) - *rsync://mirror1.hs-esslingen.de/repoforge/*
         * **repository.vsb.cz** (Czech Republic) - *rsync://repository.vsb.cz/repoforge/*
+  
     + North-America / South-America:
         * **repoforge.eecs.wsu.edu** (United States) - *rsync://repoforge.eecs.wsu.edu/repoforge/*
 
 Notes:
-- If/when your mirror is in the list, you can change the IP of the mirror without notifying us.
-- If the best contact point for your mirror is not the address you are subscribed to the mailing list (http://lists.repoforge.org/mailman/listinfo) with, please provide the email address of your preferred contact as well.
+
+- If/when your mirror is on the list, you can change the IP of the mirror without notifying us.
+- If the best contact point for your mirror is not the address you are subscribed to the [mailing list](http://lists.repoforge.org/mailman/listinfo/mirrors) with, please provide the email address of your preferred contact as well.
 - Please alert the mailing list if anything about the server changes like location, available bandwidth, frequency of updates, etc.
