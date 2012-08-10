@@ -12,7 +12,7 @@ First download the appropriate package for your distribution:
 * EL 4: [i386](http://pkgs.repoforge.org/rpmforge-release/rpmforge-release-0.5.2-2.el4.rf.i386.rpm), [x86_64](http://pkgs.repoforge.org/rpmforge-release/rpmforge-release-0.5.2-2.el4.rf.x86_64.rpm), [ppc](http://pkgs.repoforge.org/rpmforge-release/rpmforge-release-0.5.1-1.el4.rf.ppc.rpm)
 * EL 3: [i386](http://pkgs.repoforge.org/rpmforge-release/rpmforge-release-0.5.2-2.el3.rf.i386.rpm), [x86_64](http://pkgs.repoforge.org/rpmforge-release/rpmforge-release-0.5.2-2.el3.rf.x86_64.rpm)
 
-Then use `rpm` to install the downloaded package.  The package installation will enable the RepoForge repo for subsequent use via `yum`.
+Then you can use `rpm` to install the downloaded package.  The package installation will enable the RepoForge repo for subsequent use via `yum`.
 
 More detailed instructions and recommendations are available on the [CentOS wiki](http://wiki.centos.org/AdditionalResources/Repositories/RPMForge).
 
