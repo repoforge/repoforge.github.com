@@ -20,6 +20,6 @@ Hints:
 * Use `cat /etc/redhat-release` to find which release of EL you are using.
 * Use `uname -a` to find your processor architecture. 
 * You can use `wget` or `curl` to download the package using one of the above links if needed (for example on a server with no Xwindow)
-* Use `rpm -Uvh package-filename` to install the rpmforge-release package.
+* Use `rpm -ivh package-filename` to install the rpmforge-release package.
 * Then you can use `yum` to install the available packages from the RepoForge repo
 * Afterward, you can disable accidental updates from the repo by setting `enabled = 0` in the repo definition file in `/etc/yum.repos.d/`
