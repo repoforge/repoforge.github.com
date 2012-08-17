@@ -10,7 +10,7 @@ This is the Jeykll website content for http://repoforge.org/
 
 Goal of the website:
 
-* how to install repoforge
+* how to install RepoForge
 * how to cooperate/contribute
 * information for mirror users
 * where to find information
@@ -39,6 +39,6 @@ How to get a copy of this website running on your local machine.
 Random Notes
 ------------
 
-GitHub supports ASCIIdoc but getting that working on the localhost with jeykll has proven to be troublesome.  Getting the ball rolling with markdown as default markup.  Helpful hint for markdown: `gem install cheat`  and then `cheat markdown`
+GitHub supports ASCIIdoc but getting that working on the localhost with jeykll has proven to be troublesome. Getting the ball rolling with markdown as default markup. Helpful hint for markdown: `gem install cheat` and then `cheat markdown`.
 
 Web design: html5 + blueprint + ghetto css to start with.

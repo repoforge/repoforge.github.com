@@ -2,7 +2,7 @@
 layout: default
 title: quick start
 ---
-[Contribute](index.html) | [BuildSystem](quickstart.html) | [Rebuilding](rebuild.html)  
+[Contribute](index.html) | [BuildSystem](quickstart.html) | [Rebuilding](rebuild.html)
 
 ## Quick Start build system ##
 

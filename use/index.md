@@ -3,7 +3,7 @@ title: Using RepoForge
 layout: default
 ---
 
-## Using RepoForge ## 
+## Using RepoForge ##
 
 First download the appropriate `rpmforge-release` package for your distribution:
 
@@ -18,9 +18,9 @@ More detailed instructions and recommendations are available on the [CentOS wiki
 
 Hints:
 
-* Use `cat /etc/redhat-release` to find which release of EL you are using.
-* Use `uname -a` to find your processor architecture. 
-* Use `rpm -ivh package-filename` to install the rpmforge-release package (also works with URLs).
+* Use `cat /etc/redhat-release` to find which release of EL you are using
+* Use `uname -a` to find your processor architecture
+* Use `rpm -ivh package-filename` to install the rpmforge-release package (also works with URLs)
 * You can use `wget` or `curl` to download the package using one of the above links if needed (for example on a server with no X Window)
-* Then you can use `yum` to install the available packages from the RepoForge repo.
-* Afterward, you can disable accidental updates from the repo by setting `enabled = 0` in the repo definition file in `/etc/yum.repos.d/`.
+* Then you can use `yum` to install the available packages from the RepoForge repo
+* Afterward, you can disable accidental updates from the repo by setting `enabled = 0` in the repo definition file in `/etc/yum.repos.d/`

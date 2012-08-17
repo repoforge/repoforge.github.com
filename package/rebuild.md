@@ -83,4 +83,4 @@ Finally, try to build the package from the specfile:
 
 If rpm complains about unmet dependencies, use yum to install them; unfortunately, you cannot use yum-builddep to automate the process when building from a specfile.
 
-From here on, the process is the same as when rebuilding a SRPM. 
+From here on, the process is the same as when rebuilding a SRPM.
