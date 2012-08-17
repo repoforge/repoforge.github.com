@@ -1,27 +1,27 @@
 ---
 layout: default
-title: Contribute Packages
+title: Building and Contributing Packages
 ---
 
-[BuildSystem](quickstart.html) | [Rebuild](rebuild.html)  
+[Contribute](index.html) | [BuildSystem](quickstart.html) | [Rebuilding](rebuild.html)  
 
-## Contribute Packages ##
+## Contributing New Packages ##
+RepoForge welcomes contributions! 
 
-RepoForge welcomes contributions!  To contribute a new package, or a fix to an existing package, use the following procedure:
-
+To contribute a new package, or a fix to an existing package, use the following procedure:
 1. Create an account on [GitHub](https://github.com/).
-
 2. [Fork](http://help.github.com/fork-a-repo/) our [git repository](https://github.com/repoforge/rpms).
-
 3. Make changes and commit them to your fork. See [BuildSystem](quickstart.html) for details on setting up a good build environment.
-
 4. Submit a [pull request](http://help.github.com/pull-requests/) when your contribution is ready.
 
+## Follow the community ##
 
-### Follow the community ###
+* [Subscribe to the mailing list(s)](http://lists.repoforge.org/mailman/listinfo) - and of course, review the archives
+* Some of us hang out on #repoforge on irc.freenode.net
+* Check out our [RepoForge bugtracker on github](https://github.com/repoforge/rpms/issues)
 
-* TODO: mailing list info
-* TODO: bug tracker
-* #repoforge on irc.freenode.net
+## Building and Rebuilding ##
 
-Check out the [Rebuild Howto](/package/rebuild.html) for just rebuilding a single package.
+[BuildSystem](quickstart.html) provides a Quick Start guide for doing builds.
+
+Check out the [Rebuild Howto](rebuild.html) for just rebuilding a single package.
