@@ -18,7 +18,7 @@ To contribute a new package, or a fix to an existing package, use the following 
 
 * [Subscribe to the mailing list(s)](http://lists.repoforge.org/mailman/listinfo) - and of course, review the archives
 * Some of us hang out on #repoforge on irc.freenode.net
-* a bugtracker for RepoForge is in the works as well!
+* Check out our [RepoForge bugtracker on github](https://github.com/repoforge/rpms/issues)
 
 ## Building and Rebuilding ##
 
