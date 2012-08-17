@@ -2,14 +2,15 @@
 layout: default
 title: quick start
 ---
+[Contribute](index.html) | [BuildSystem](quickstart.html) | [Rebuilding](rebuild.html)  
 
-# Quick Start build system
+## Quick Start build system ##
 
 You want to spin out some fancy RepoForge action yourself. Test rebuilding SPEC files before asking for a pull request perhaps. Here is a quick start guide with the possible commands you might run:
 
 * Spin out a new RHEL/CentOS machine
 
-> KVM is your friend if you don't have a spare physical box.
+	> KVM is your friend if you do not have a spare physical box.
 
 * Software development tools
 
@@ -25,7 +26,7 @@ You want to spin out some fancy RepoForge action yourself. Test rebuilding SPEC 
         useradd -G mock repoforge
         sudo -u repoforge -i
 
-* Checkout the RepoForge RPMs repository (or make & checkout your own fork if you are expecting to submit your patches back to us, which you really ought to, of course!)
+* Checkout the RepoForge RPMs repository (or fork our repo, & checkout your own fork - especially if you plan to submit patches back to us)
 
         git clone git://github.com/repoforge/rpms.git
 
@@ -47,7 +48,6 @@ You want to spin out some fancy RepoForge action yourself. Test rebuilding SPEC 
 * Paste the following contents
 
         #!/bin/bash
-
         rpmbuild \
             --define "_source_filedigest_algorithm 1" \
             --define "_binary_filedigest_algorithm 1" \
@@ -64,4 +64,4 @@ You want to spin out some fancy RepoForge action yourself. Test rebuilding SPEC 
 
         rpmbuild-old -bs file.spec
 
-For people serious about doing a good job: build and test at least on RHEL4, RHEL5 and RHEL6 by specifying correct config files to mock builder!
+> For those serious about doing a good job - build and test at least on RHEL4, RHEL5 and RHEL6 by specifying correct config files to mock builder
