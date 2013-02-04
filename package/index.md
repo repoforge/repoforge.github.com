@@ -10,9 +10,9 @@ RepoForge welcomes contributions!
 
 To contribute a new package, or a fix to an existing package, use the following procedure:
 1. Create an account on [GitHub](https://github.com/)
-2. [Fork](http://help.github.com/fork-a-repo/) our [git repository](https://github.com/repoforge/rpms)
+2. [Fork](https://help.github.com/articles/fork-a-repo) our [git repository](https://github.com/repoforge/rpms)
 3. Make changes and commit them to your fork. See [BuildSystem](quickstart.html) for details on setting up a good build environment
-4. Submit a [pull request](http://help.github.com/pull-requests/) when your contribution is ready
+4. Submit a [pull request](https://help.github.com/articles/using-pull-requests) when your contribution is ready
 
 ## Follow the community ##
 
