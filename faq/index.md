@@ -55,7 +55,7 @@ We highly recommend the use of a lock file in your cron script, so that you do n
 
 Create your unique lockfile with:
 
-    cat /dev/urandom | tr -dc [:alnum:] | head -c12; echo
+    cat /dev/urandom | tr -dc '[:alnum:]' | head -c12; echo
 
 #### After I setup a mirror, what next? ####
 
