@@ -47,3 +47,34 @@ padding-top: 20px;
 color: #888;
 font-size: 80%;
 }
+
+blockquote {
+    background: #fff none repeat scroll 0 0;
+    border-left: 10px solid #46e;
+    border-right: 2px solid #46e;
+    box-shadow: 2px 2px 15px #ccc;
+    color: #666;
+    display: block;
+    font-family: Georgia,serif;
+    font-size: 0.9em;
+    line-height: 1.2;
+    margin: 0 0 20px;
+    padding: 10px;
+    position: relative;
+    text-align: justify;
+}
+blockquote::after {
+    content: "";
+}
+blockquote a {
+    padding: 0 3px;
+}
+blockquote a:hover {
+    color: #666;
+}
+blockquote em {
+    font-style: italic;
+}
+blockquote.warning {
+    border-color: #a00 !important;
+}
