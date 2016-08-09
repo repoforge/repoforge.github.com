@@ -67,7 +67,7 @@ blockquote a {
     padding: 0 3px;
 }
 blockquote p {
-    padding: 0 !important;
+    padding: 0;
 }
 blockquote a:hover {
     color: #666;
