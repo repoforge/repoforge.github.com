@@ -4,7 +4,8 @@ title: RepoForge Project
 ---
 
 ## Welcome to RepoForge! ##
-_RepoForge is the new RPMforge. Please excuse the dust as we move in and remodel._
+
+> RepoForge might be outdated. We have no updates since very long time.
 
 The RepoForge project maintains RPM packages for:
 * Red Hat Enterprise Linux (RHEL)
