@@ -63,9 +63,6 @@ blockquote {
     position: relative;
     text-align: justify;
 }
-blockquote::after {
-    content: "";
-}
 blockquote a {
     padding: 0 3px;
 }
