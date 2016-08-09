@@ -78,7 +78,7 @@ Provide us with details of your mirror:
 
         **mirror1.hs-esslingen.de** (Germany) - *rsync://mirror1.hs-esslingen.de/repoforge/*
 
-        **repository.vsb.cz** (Czech Republic) - *rsync://repository.vsb.cz/repoforge/*
+        **repository.it4i.cz** (Czech Republic) - *rsync://repository.it4i.cz/repoforge/*
   
     * North-America / South-America:
 
