@@ -58,13 +58,16 @@ blockquote {
     font-family: Georgia,serif;
     font-size: 0.9em;
     line-height: 1.2;
-    margin: 0;
+    margin: 0 0 20px; 
     padding: 10px;
     position: relative;
     text-align: justify;
 }
 blockquote a {
     padding: 0 3px;
+}
+blockquote p {
+    padding: 0 !important;
 }
 blockquote a:hover {
     color: #666;
