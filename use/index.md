@@ -22,4 +22,4 @@ Hints:
 * Use `rpm -ivh package-filename` to install the rpmforge-release package (also works with URLs)
 * You can use `wget` or `curl` to download the package using one of the above links if needed (for example on a server with no X Window)
 * Then you can use `yum` to install the available packages from the RepoForge repo, e.g. `yum install --enablerepo=rpmforge-extras``
-* Afterward, you can disable accidental updates from the repo by setting `enabled = 0` in the repo definition file in `/etc/yum.repos.d/`
+* Afterward, you can disable accidental updates from the RepoForge repo by setting `enabled = 0` in the repo definition file in `/etc/yum.repos.d/`
