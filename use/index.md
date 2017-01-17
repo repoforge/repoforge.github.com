@@ -7,7 +7,7 @@ layout: default
 
 First download the appropriate `rpmforge-release` package for your distribution:
 
-* EL 7: [x86_64](http://repository.it4i.cz/mirrors/repoforge/redhat/el7/en/x86_64/rpmforge/rpmforge-release-0.5.3-1.el7.rf.x86_64.rpm)
+* EL 7: [x86_64](http://repository.it4i.cz/mirrors/repoforge/redhat/el7/en/x86_64/rpmforge/RPMS/rpmforge-release-0.5.3-1.el7.rf.x86_64.rpm)
 * EL 6: [i686](http://repository.it4i.cz/mirrors/repoforge/redhat/el6/en/i386/rpmforge/RPMS/rpmforge-release-0.5.3-1.el6.rf.i686.rpm), [x86_64](http://repository.it4i.cz/mirrors/repoforge/redhat/el6/en/x86_64/rpmforge/RPMS/rpmforge-release-0.5.3-1.el6.rf.x86_64.rpm)
 * EL 5: [i386](http://repository.it4i.cz/mirrors/repoforge/redhat/el5/en/i386/rpmforge/RPMS/rpmforge-release-0.5.3-1.el5.rf.i386.rpm), [x86_64](http://repository.it4i.cz/mirrors/repoforge/redhat/el5/en/x86_64/rpmforge/RPMS/rpmforge-release-0.5.3-1.el5.rf.x86_64.rpm), [ppc](http://repository.it4i.cz/mirrors/repoforge/redhat/el5/en/ppc/rpmforge/RPMS/rpmforge-release-0.5.1-1.el5.rf.ppc.rpm)
 
